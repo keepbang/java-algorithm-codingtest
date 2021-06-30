@@ -29,14 +29,6 @@ public class Fibonacci {
         return answer;
     }
 
-    private int fibo(int i){
-        if(i <= 1){
-            return i;
-        }
-
-        return fibo(i - 2) + fibo(i - 1);
-    }
-
     public static void main(String[] args) {
         Fibonacci m = new Fibonacci();
 
