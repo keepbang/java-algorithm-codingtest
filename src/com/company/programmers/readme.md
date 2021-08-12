@@ -1,5 +1,7 @@
 # 짝지어 제거하기
 
+```Array```, ```stack```
+
 ![image](https://user-images.githubusercontent.com/38740455/129237475-6e315763-5bf3-4fc0-9a78-68a80accd1e8.png)
 
 처음에는 일단 list로 풀어보고 substring을 사용해서 이어붙이고 해봤는데 효율성에서 통과되지 못했다.
