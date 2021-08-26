@@ -1,9 +1,8 @@
 import java.util.Stack;
 
-class Solution
+public class DoubleRemove
 {
-    public int solution(String s)
-    {
+    public int solution(String s){
 
         if(s.length() < 2 || s.length()%2 != 0){
             return 0;
