@@ -47,5 +47,6 @@ answer : 1, 3
 
 시간복잡도는 O(N)만큼 걸린다.
 
-![image]()
+![image](<img width="1247" alt="image" src="https://user-images.githubusercontent.com/38740455/205422222-32ad0976-60b8-409a-a20b-66909473f6f4.png">
+)
 
