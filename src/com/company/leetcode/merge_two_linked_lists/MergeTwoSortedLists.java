@@ -1,5 +1,7 @@
 package com.company.leetcode.merge_two_linked_lists;
 
+import com.company.common.ListNode;
+
 /**
  * create on 2024/02/08.
  * create by IntelliJ IDEA.
@@ -11,24 +13,6 @@ package com.company.leetcode.merge_two_linked_lists;
  * @since 1.0
  */
 public class MergeTwoSortedLists {
-
-  public class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-      this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-      this.val = val;
-      this.next = next;
-    }
-  }
 
   public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 

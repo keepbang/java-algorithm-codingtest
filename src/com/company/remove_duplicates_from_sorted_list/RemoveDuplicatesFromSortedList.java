@@ -1,5 +1,7 @@
 package com.company.remove_duplicates_from_sorted_list;
 
+import com.company.common.ListNode;
+
 /**
  * create on 2023/12/26.
  * create by IntelliJ IDEA.
@@ -11,25 +13,6 @@ package com.company.remove_duplicates_from_sorted_list;
  * @since 1.0
  */
 public class RemoveDuplicatesFromSortedList {
-
-
-  public class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-      this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-      this.val = val;
-      this.next = next;
-    }
-  }
 
   public ListNode deleteDuplicates(ListNode head) {
     if (head == null) {
