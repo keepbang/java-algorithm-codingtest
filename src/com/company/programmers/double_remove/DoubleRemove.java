@@ -1,7 +1,8 @@
+package com.company.programmers.double_remove;
+
 import java.util.Stack;
 
-public class DoubleRemove
-{
+public class DoubleRemove {
     public int solution(String s){
 
         if(s.length() < 2 || s.length()%2 != 0){
