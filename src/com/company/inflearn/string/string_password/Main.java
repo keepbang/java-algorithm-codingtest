@@ -1,4 +1,4 @@
-package com.company.inflearn.string_password;
+package com.company.inflearn.string.string_password;
 
 import java.io.BufferedReader;
 import java.io.IOException;

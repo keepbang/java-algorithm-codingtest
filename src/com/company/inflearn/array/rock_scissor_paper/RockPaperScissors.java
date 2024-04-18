@@ -1,4 +1,4 @@
-package com.company.array;
+package com.company.inflearn.array.rock_scissor_paper;
 
 import java.util.ArrayList;
 import java.util.Scanner;

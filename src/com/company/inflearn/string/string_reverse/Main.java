@@ -1,4 +1,4 @@
-package com.company.inflearn.string_reverse;
+package com.company.inflearn.string.string_reverse;
 
 import java.io.BufferedReader;
 import java.io.IOException;

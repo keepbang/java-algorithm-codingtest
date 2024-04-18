@@ -1,4 +1,4 @@
-package com.company.array;
+package com.company.inflearn.array.eratosthenes;
 
 import java.util.Scanner;
 
@@ -40,6 +40,5 @@ public class PrimeNumber {
         Scanner in=new Scanner(System.in);
         int input = in.nextInt();
         System.out.println(m.solution(input));
-        return ;
     }
 }

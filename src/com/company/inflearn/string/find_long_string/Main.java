@@ -1,4 +1,4 @@
-package com.company.inflearn.find_long_string;
+package com.company.inflearn.string.find_long_string;
 
 import java.io.BufferedReader;
 import java.io.IOException;

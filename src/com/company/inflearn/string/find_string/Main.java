@@ -1,4 +1,4 @@
-package com.company.inflearn.find_string;
+package com.company.inflearn.string.find_string;
 
 import java.io.BufferedReader;
 import java.io.IOException;

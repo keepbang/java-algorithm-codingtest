@@ -1,4 +1,4 @@
-package com.company.inflearn.string_zip;
+package com.company.inflearn.string.duplication_char_remove;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,31 +16,23 @@ import java.io.InputStreamReader;
 public class Main {
 
   public String solution(String str) {
-    int count = 1;
     String answer = "";
 
-    for (int i = 0; i < str.toCharArray().length; i++) {
-      if (i == str.length() - 1) {
-        answer = answer + str.charAt(i) + (count == 1 ? "" : count);
-        break;
-      }
-      if (str.charAt(i) == str.charAt(i + 1)) {
-        count++;
-      } else {
-        answer = answer + str.charAt(i) + (count == 1 ? "" : count);
-        count = 1;
+    for (int i = 0; i < str.length(); i++) {
+      if (i == str.indexOf(str.charAt(i))) {
+        answer += str.charAt(i);
       }
     }
 
     return answer;
-
   }
 
   public static void main(String[] args) throws IOException {
     Main main = new Main();
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
     String str = br.readLine();
+
     System.out.println(main.solution(str));
   }
-
 }

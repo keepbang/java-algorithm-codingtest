@@ -1,4 +1,4 @@
-package com.company.array;
+package com.company.inflearn.array.reverse_prime;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -20,7 +20,7 @@ import java.util.Scanner;
  * 출력
  * 첫 줄에 뒤집은 소수를 출력합니다. 출력순서는 입력된 순서대로 출력합니다.
  */
-public class ReversePrime {
+public class Main {
 
 
     public ArrayList<Integer> solution(int n, int[] arr) {
@@ -39,9 +39,19 @@ public class ReversePrime {
     }
 
     public boolean isPrime(int n){
-        if(n == 1) return false;
-        for (int i = 2 ; i <= n/2 ; i++) {
-            if(n % i == 0) return false;
+        int sqrt = (int) Math.sqrt(n);
+
+        // 2는 유일한 짝수 소수
+        if (n == 2)
+            return true;
+
+        // 짝수와 1은 소수가 아님
+        if (n % 2 == 0 || n == 1)
+            return false;
+
+        // 제곱근까지만 홀수로 나눠보면 됨
+        for (int i = 3; i <= sqrt; i += 2) {
+            if (n % i == 0) return false;
         }
 
         return true;
@@ -60,7 +70,7 @@ public class ReversePrime {
 
 
     public static void main(String[] args) {
-        ReversePrime m = new ReversePrime();
+        Main m = new Main();
         Scanner in = new Scanner(System.in);
 
         String input1 = in.nextLine();

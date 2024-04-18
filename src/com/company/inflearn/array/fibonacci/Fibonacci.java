@@ -1,4 +1,8 @@
-package com.company.array;
+package com.company.inflearn.array.fibonacci;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * 피보나치 수열
@@ -29,10 +33,11 @@ public class Fibonacci {
         return answer;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Fibonacci m = new Fibonacci();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = 45;
+        int n = Integer.parseInt(br.readLine());
 
         for(int tmp : m.solution(n)){
             System.out.print(tmp + " ");

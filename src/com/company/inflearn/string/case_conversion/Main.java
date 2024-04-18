@@ -1,4 +1,4 @@
-package com.company.inflearn.case_conversion;
+package com.company.inflearn.string.case_conversion;
 
 import java.io.BufferedReader;
 import java.io.IOException;
