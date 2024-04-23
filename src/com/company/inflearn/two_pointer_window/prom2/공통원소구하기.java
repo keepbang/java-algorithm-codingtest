@@ -1,4 +1,4 @@
-package com.company.array;
+package com.company.inflearn.two_pointer_window.prom2;
 
 import java.util.Arrays;
 import java.util.LinkedList;
